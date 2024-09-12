@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Reminder } from '../reminder';
 
 @Component({
   selector: 'rmd-reminder',
@@ -9,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class ReminderComponent {
 
+  @Input() reminder: Reminder = new Reminder(0, '', false);
 }

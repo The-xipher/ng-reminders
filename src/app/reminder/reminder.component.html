@@ -1,1 +1,9 @@
-<p>reminder works!</p>
+<div class="reminder">
+  <input
+    type="checkbox"
+    id="reminder"
+    [checked]="reminder.completed"
+    [name]="reminder.id"
+  />
+  <label for="reminder">{{ reminder.reminder }}</label>
+</div>

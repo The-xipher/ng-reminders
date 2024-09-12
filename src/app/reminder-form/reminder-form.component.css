@@ -1,0 +1,20 @@
+form {
+  width: 600px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+.form-group {
+  margin-bottom: 0;
+  /* padding: 24px 0; */
+}
+
+.form-control {
+  width: 100%;
+  padding: 16px;
+  margin: 6px 0;
+  border: 1px solid #28262a;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
