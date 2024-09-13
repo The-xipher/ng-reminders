@@ -9,5 +9,8 @@
       name='reminderText'
       (keyup)="addReminder($event)"
     />
+    @if (reminderCreated) {
+      <small>Reminder created.</small>
+    }
   </div>
 </form>
